@@ -1,0 +1,38 @@
+vue init webpack
+
+Project name (my-project) # 项目名称（我的项目）
+
+Project description (A Vue.js project) # 项目描述一个Vue.js 项目
+
+Author 作者（你的名字）
+
+Install vue-router? (Y/n) # 是否安装Vue路由，也就是以后是spa（但页面应用需要的模块）
+
+Use ESLint to lint your code? (Y/n) # 使用 ESLint 到你的代码？ （Y [ yes ] / N [ no ]）
+
+Pick an ESLint preset (Use arrow keys) # 选择一个预置ESLint（使用箭头键）
+
+Setup unit tests with Karma + Mocha? (Y/n) # 设置单元测Karma + Mocha？ （Y/ N）
+
+Setup e2e tests with Nightwatch? (Y/n) # 设置端到端测试，Nightwatch？ （Y/ N）
+
+当然这些都看你自己个人的情况，我这里是全选了是。
+
+
+react   （umi、dva、antd）
+
+mkdir myapp && cd myapp
+
+npm create umi
+
+
+react (纯)
+
+npm install -g create-react-app /*搭建一个全局的脚手架*/
+
+create-react-app my-demo /*创建项目 my-demo是项目名字*/  (  yarn create react-app my-test-app   配置 webpack：yarn eject   安装 less: yarn add less less-loader --save-dev
+
+cd my-demo /*进入目录 然后启动*/
+
+npm start
+
